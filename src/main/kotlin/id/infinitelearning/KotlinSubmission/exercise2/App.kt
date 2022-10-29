@@ -9,6 +9,13 @@ fun main() {
     - Agar lebih mudah, gunakanlah for loop dan logika if untuk mengisi bilangan genap pada list
      */
     // Buat di bawah sinilah
+    val listGenap = mutableListOf<Int>()
+    for (i in 1..100) {
+        if (i % 2 == 0) {
+            listGenap.add(i)
+        }
+    }
+    println(listGenap)
 
     /** Latihan 2 List
     Buatlah sebuah variabel bertipe list dengan ketentuan:
@@ -17,13 +24,13 @@ fun main() {
     - Agar lebih mudah, gunakanlah for loop dan logika if untuk mengisi bilangan ganjil pada list
      */
     // Buat di bawah sini
-    val listGenap = mutableListOf<Int>()
+    val listGanjil = mutableListOf<Int>()
     for (i in 1..100) {
-        if (i % 2 == 0) {
-            listGenap.add(i)
+        if (i % 2 == 1) {
+            listGanjil.add(i)
         }
     }
-    println(listGenap)
+    println(listGanjil)
 
     /** Latihan 2 Map
     Buatlah variabel bertipe Map dengan kriteria:
