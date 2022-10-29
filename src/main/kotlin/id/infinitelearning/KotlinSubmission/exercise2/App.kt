@@ -17,21 +17,6 @@ fun main() {
     }
     println(listGenap)
 
-    /** Latihan 2 List
-    Buatlah sebuah variabel bertipe list dengan ketentuan:
-    - List tersebut menampung bilangan ganjil dari 1 hingga 100
-    Optional:
-    - Agar lebih mudah, gunakanlah for loop dan logika if untuk mengisi bilangan ganjil pada list
-     */
-    // Buat di bawah sini
-    val listGanjil = mutableListOf<Int>()
-    for (i in 1..100) {
-        if (i % 2 == 1) {
-            listGanjil.add(i)
-        }
-    }
-    println(listGanjil)
-
     /** Latihan 2 Map
     Buatlah variabel bertipe Map dengan kriteria:
     Daftar nama bulan dalam setahun,
